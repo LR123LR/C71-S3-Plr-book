@@ -147,7 +147,7 @@ public class BookAction {
 		System.out.println("qbookauthor============"+qbookauthor);
 		return bbiz.fuzzyQuery(qbookname,qbookpress,qbookauthor);
 	}
-
+    asadsSADxS
 	@InitBinder
 	protected void initBinder(WebDataBinder binder) {
 		// 添加日期转换类型
